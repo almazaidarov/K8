@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
+<<<<<<< HEAD
   creationTimestamp: null
   labels:
     run: web1
@@ -13,3 +14,10 @@ spec:
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
+=======
+  name: web1
+spec:
+  containers:
+  -  image: httpd
+     name: web1
+>>>>>>> 43c8398fc4a937d3445a6b238874b9c9340758a9
