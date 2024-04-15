@@ -4,6 +4,8 @@ metadata:
   name: web1
   labels:
     team: dev
+  annotations:
+    dev: team
 spec:
   containers:
   - image: httpd
